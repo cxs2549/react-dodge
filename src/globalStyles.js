@@ -23,6 +23,9 @@ const GlobalStyles = createGlobalStyle`
     svg {
         font-size: 1.5rem;
     }
+    ul {
+        list-style-type: none;
+    }
 `
 
 export default GlobalStyles
