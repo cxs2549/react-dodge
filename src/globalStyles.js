@@ -12,8 +12,16 @@ const GlobalStyles = createGlobalStyle`
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
+    main {
+        margin-top: 60px;
+    }
+
     button, svg, a {
         cursor: pointer;
+    }
+
+    svg {
+        font-size: 1.5rem;
     }
 `
 

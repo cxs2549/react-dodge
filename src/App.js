@@ -10,7 +10,9 @@ const App = () => {
 		<StyledApp>
 			<GlobalStyles />
 			<Header />
-			<Home />
+			<main>
+				<Home />
+			</main>
 		</StyledApp>
 	)
 }
