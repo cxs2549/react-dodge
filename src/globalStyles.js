@@ -8,8 +8,13 @@ const GlobalStyles = createGlobalStyle`
         scrollbar-width: none;
     }
 
+    :root {
+        --maxWidth: 1450px;
+    }
+
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #333;
     }
 
     main {
