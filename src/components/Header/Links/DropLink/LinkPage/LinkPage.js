@@ -8,7 +8,7 @@ const StyledLinkPage = styled.div`
   min-height: 70vh;
   background-color: white;
   color: inherit;
-  
+  z-index: 1000;
 `;
 const LinkPage = ({ page }) => {
   return (

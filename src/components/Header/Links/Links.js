@@ -12,6 +12,11 @@ const StyledLinks = styled.nav`
   position: relative;
   z-index: 3;
   color: inherit;
+  >div {
+    &:hover {
+      background-color: gray;
+    }
+  }
   > div:not(:nth-of-type(1)) {
     display: none;
   }
@@ -37,7 +42,7 @@ const StyledLinks = styled.nav`
     align-items: center;
     justify-content: center;
     padding: 0 0.75rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     position: relative;
     z-index: 300;
     color: white;
@@ -85,7 +90,7 @@ const Links = () => {
         <div key={i}>
           {link.to && <NavLink to={link.to}>{link.name}</NavLink>}
           {!link.to && (
-            <DropLink link={link.name} page={link.page}>
+            <DropLink page={link.page}>
               {link.name}
               <span>
                 <i class="fa fa-chevron-down" aria-hidden="true" />
